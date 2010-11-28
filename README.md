@@ -9,7 +9,7 @@ application. Because Android is exciting, but Java is still kinda painful.
 If you don't already have the Android SDK, download it from 
 http://developer.android.com/sdk/index.html and follow the quick-start 
 instructions. You'll need to create an Android Virtual Device (AVD) using the
-Android Manager (+android+) found in the SDK.
+Android Manager (`android`) found in the SDK.
 
 You'll also want to have Mirah installed of course. You can get it from
 GitHub: https://github.com/mirah/mirah
@@ -25,14 +25,14 @@ use and the Android SDK location:
     gem install protoform
     protoform -S ~/android/sdk -T "Hello Android" -P org.zerosum.android HelloWorld
 
-This should generate an app skeleton in the directory +HelloWorld+. Change to
+This should generate an app skeleton in the directory `HelloWorld`. Change to
 that directory and run the ant debug task:
 
     ant debug
 
 Assuming that your prerequisites are all set and the task succeeds, you should
 now have a .apk file in your bin/ directory. Fire up the Android AVD Manager
-(+android+) to launch the emulator, and install the APK using the adb tool:
+(`android`) to launch the emulator, and install the APK using the adb tool:
 
     adb install bin/HelloWorld-debug.apk
 
