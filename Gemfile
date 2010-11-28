@@ -1,5 +1,5 @@
 source "http://rubygems.org"
-gem "rubigen", "> 1.5.2"
+gem "rubigen", ">= 1.5.5"
 
 gem "shoulda", ">= 0"
 gem "bundler", "~> 1.0.0"

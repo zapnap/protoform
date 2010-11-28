@@ -20,7 +20,6 @@ Jeweler::Tasks.new do |gem|
   gem.executables = ["protoform"]
   gem.email = "nap@zerosum.org"
   gem.authors = ["Nick Plante"]
-  gem.add_runtime_dependency 'rubigen', '>= 1.5.5'
 end
 Jeweler::RubygemsDotOrgTasks.new
 
