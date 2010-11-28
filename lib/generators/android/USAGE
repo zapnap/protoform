@@ -1,0 +1,7 @@
+Description:
+    The 'protoform' command generates a new Mirah Android application with a
+    default directory structure and configuration. 
+
+Example:
+    protoform -S /path/to/android/sdk -P org.zerosum.android HelloWorld
+
