@@ -66,10 +66,19 @@
 
     <target name="compile" depends="-resource-src, -aidl"
             description="Compiles project's .mirah files into .class files">
+
+      <exec executable="javac" dir="gen">
+        <arg value="-d" />
+        <arg value="../bin/classes"/>
+        <arg value="../gen/<%= package.gsub('.', '/') %>/R.java"/>
+      </exec>
+
       <exec executable="mirahc" dir="src">
         <env key="CLASSPATH" file="${android.jar}" />
         <arg value="-d" />
-        <arg value="../bin/classes/" />
+        <arg value="../bin/classes" />
+        <arg value="-c"/>
+        <arg value="../bin/classes:../gen" />
         <arg value="." />
       </exec>
     </target>
