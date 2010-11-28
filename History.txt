@@ -1,0 +1,11 @@
+== 0.1.2
+
+Upgrade the sample UI to an XML Layout
+
+== 0.1.1
+
+Cleanup dependencies and add notes
+
+== 0.1.0 2010-11-28
+
+First gem release
