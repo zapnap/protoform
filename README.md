@@ -14,8 +14,8 @@ Android Manager (`android`) found in the SDK.
 You'll also want to have Mirah installed of course. You can get it from
 GitHub: https://github.com/mirah/mirah
 
-Make sure that mirah and mirahc are in your PATH as well as the Android SDK
-tools directory.
+Make sure that jruby, mirah and mirahc are in your PATH as well as the Android
+SDK tools directory.
 
 ## Usage
 
