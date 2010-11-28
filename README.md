@@ -1,6 +1,6 @@
 # protoform
 
-A protoform is a building block, a start point for building droidy things.
+A protoform is a building block, a starting point for building androidy things.
 This little gem generates an application skeleton for a Mirah Android
 application. Because Android is exciting, but Java is still kinda painful.
 
