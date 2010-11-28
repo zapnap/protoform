@@ -20,5 +20,5 @@ DEPENDENCIES
   bundler (~> 1.0.0)
   jeweler (~> 1.5.1)
   rcov
-  rubigen (> 1.5.2)
+  rubigen (>= 1.5.5)
   shoulda
