@@ -39,9 +39,12 @@ now have a .apk file in your bin/ directory. Fire up the Android AVD Manager
 You should now be able to navigate to the applications list in the emulator
 and launch your application.
 
+Alternatively, you can use the `ant install` target to install / reinstall the
+debug package.
+
 ## Thanks
 
-This work is based on / inspired by Technomancy's Android/Mirah experiments.
+This work is based on / inspired by Technomancy's Android / Mirah experiments.
 
 If you'd like to help out, contributions are definitely welcome. Mirah is
 very slick, and with a little work we can make it a great alternative to
