@@ -5,7 +5,7 @@ require 'rubigen'
 
 if %w(-v --version).include? ARGV.first
   require File.join(File.dirname(__FILE__), '..', 'lib', 'protoform')
-  puts "#{File.basename($0)} #{Miradrogen::VERSION}"
+  puts "#{File.basename($0)} #{Protoform::VERSION}"
   exit(0)
 end
 
